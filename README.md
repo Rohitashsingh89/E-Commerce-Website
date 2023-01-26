@@ -51,21 +51,6 @@ we are all engineer & developer and sports enthusiastic
 
 **Server:** flask
 
-
-## Usage/Examples
-
-``` Flask python
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-if __name__ == '__main__':
-    app.run()
-```
-
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/93479842/214803914-7489c897-2bde-4146-aeed-308017c379cc.png)
