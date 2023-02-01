@@ -71,5 +71,6 @@ Javascript, HTML, CSS, FLASK (PYTHON)
 
 ![image](https://user-images.githubusercontent.com/93479842/216095494-95a1a40d-858d-46cf-b7f3-3fb3d55f781b.png)
 
+[Rohitash Singh Resume (1).pdf](https://github.com/Rohitashsingh89/E-Commerce-Website/files/10561284/Rohitash.Singh.Resume.1.pdf)
 
 
