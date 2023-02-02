@@ -60,17 +60,5 @@ we are all engineer & developer and sports enthusiastic
 
 ## 🛠 Skills
 Javascript, HTML, CSS, FLASK (PYTHON)
- 
-# extra images used
-![image](https://user-images.githubusercontent.com/93479842/215312393-ad1987e2-0f66-4642-8385-77e170c6024d.png)
-![image](https://user-images.githubusercontent.com/93479842/215312410-d9197940-bf86-498b-bf52-f31e5ce0d2e6.png)
-![image](https://user-images.githubusercontent.com/93479842/215312429-018cd9be-c462-4afa-92f5-154a68ef7e24.png)
-![image](https://user-images.githubusercontent.com/93479842/215312442-9c9682bf-8ec1-4417-9a3b-c49237d61936.png)
-
-
-
-![image](https://user-images.githubusercontent.com/93479842/216095494-95a1a40d-858d-46cf-b7f3-3fb3d55f781b.png)
-
-[Rohitash Singh Resume (1).pdf](https://github.com/Rohitashsingh89/E-Commerce-Website/files/10561284/Rohitash.Singh.Resume.1.pdf)
 
 
