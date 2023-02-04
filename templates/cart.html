@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce Website</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <div class="row">
+                <div class="logo">
+                    <a href="/"><img src="/Image/logo.png" alt="This is a logo image" class="logo"></a>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <div class="box1" id="">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/templates/product.html">Products</a></li>
+                                <li><a href="/templates/about.html">About</a></li>
+                                <li><a href="/templates/contact.html">Contact Us</a></li>
+                                <li><a href="/templates/account.html">account</a></li>
+                            </div>
+                            <li><a href="/templates/cart.html"><img src="/Image/cart.png" alt="This is card image" class="cart"></a></li>
+                            <div class="container">
+                                <img src="/Image/menu.png" alt="This is menu image" class="menu" onclick="menutoggle()">
+                            </div>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+            
+            <div class="box">
+                <ul id="menuItems">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/templates/product.html">Products</a></li>
+                    <li><a href="/templates/about.html">About</a></li>
+                    <li><a href="/templates/contact.html">Contact Us</a></li>
+                    <li><a href="/templates/account.html">account</a></li>
+                </ul>
+            </div>
+
+
+            <div class="row">
+                <div class="cart-detail" >
+                    <table >
+                        <thead >
+                            <tr>
+                                <th >Products</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 
+                                    <div class="cart-info">
+                                        <img class="" src="/Image/gallery-1.jpg" alt="This is a product image">
+                                        <div class="prod-info">
+                                            <p>Red T-Shirt </p>  
+                                            <p>Price: $35.00 </p>  
+                                            <a href="#"><span class="" style="color: #d46f62">remove </span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="number"  onkeypress="return event.charCode >= 48" min="1" value="1" class="no_of_piece">
+                                </td>
+                                <td>$35.00 </td>
+                            </tr>
+                            <tr>
+                                <td> 
+                                    <div class="cart-info">
+                                        <img class="" src="/Image/product-2.jpg" alt="This is a product image">
+                                        <div class="prod-info">
+                                            <p>Black Shoes  </p>
+                                            <p>Price: $25.00 </p> 
+                                            <a href="#"><span style="color: #d46f62">remove </span> </a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="number"  onkeypress="return event.charCode >= 48" min="1" value="1" class="no_of_piece">
+                                </td>
+                                <td>$25.00 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="total-price">
+                        <table>
+                            <tr>
+                                <td>Subtotal</td>
+                                <td>$200.00</td>
+                            </tr>
+                            <tr>
+                                <td>Tax</td>
+                                <td>$35.00</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>$235.00</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- JavaScript for menu icon -->
+    <script src="/static/script.js"></script>
+
+
+</body>
+</html>

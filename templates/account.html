@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce Website</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <div class="row">
+                <div class="logo">
+                    <a href="/"><img src="/Image/logo.png" alt="This is a logo image" class="logo"></a>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <div class="box1" id="">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/templates/product.html">Products</a></li>
+                                <li><a href="/templates/about.html">About</a></li>
+                                <li><a href="/templates/contact.html">Contact Us</a></li>
+                                <li><a href="/templates/account.html">account</a></li>
+                            </div>
+                            <li><a href="/templates/cart.html"><img src="/Image/cart.png" alt="This is card image" class="cart"></a></li>
+                            <div class="container">
+                                <img src="/Image/menu.png" alt="This is menu image" class="menu" onclick="menutoggle()">
+                            </div>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+            
+            <div class="box">
+                <ul id="menuItems">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/templates/product.html">Products</a></li>
+                    <li><a href="/templates/about.html">About</a></li>
+                    <li><a href="/templates/contact.html">Contact Us</a></li>
+                    <li><a href="/templates/account.html">account</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="contactrow">
+
+                <!-- <img class="image2"style="margin: 40px" src="/Image/product-2.jpg" alt=""> -->
+                
+                <div class="formcontainer">
+                    <div class="form-btn">
+                        <span onclick="login()"> login </span>
+                        <span onclick="signup()"> signup </span>
+                        <hr id="indicator">
+                    </div>
+                    <div class="loginbox">
+                    <form action="action.php" id="loginForm" class="loginbox">
+                        <label for="email">
+                            <p class="mt1">Email </p> <p><input type="email" name="email" id="email"  class="chead" placeholder="enter your email"> </p>
+                        </label>
+                        <label for="password">
+                            <p class="mt1">Password </p> <p><input type="pass" name="pass" id="pass" class="chead"  placeholder="enter your password"> </p>
+                        </label>
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn mt2 btn1">
+                        <p class="forgot pt1"><a href="#" class="forgot">forgor password?</a></p>
+                    </form>
+                    </div>
+
+
+                    <div class="loginbox">
+                    <form action="action.php" id="signupForm" class="loginbox">
+                        <label for="name">
+                            <p class="mt1">Name</p> 
+                            <p><input type="text" name="name" id="name" class="chead" placeholder="enter your name"> </p>
+                        </label>
+                        <label for="email">
+                            <p class="mt1">Email </p> <p><input type="email" name="email" id="email"  class="chead" placeholder="enter your email"> </p>
+                        </label>
+                        <label for="password">
+                            <p class="mt1">Password </p> <p><input type="pass" name="pass" id="pass" class="chead"  placeholder="enter your password"> </p>
+                        </label><label for="cpassword">
+                            <p class="mt1">Confirm Password </p> <p><input type="cpass" name="cpass" id="cpass" class="chead"  placeholder="again enter your password"> </p>
+                        </label>
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn mt2 btn1">
+                    </form>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- JavaScript for menu icon -->
+    <script src="/static/script.js"></script>
+
+
+</body>
+</html>
