@@ -145,6 +145,7 @@ a {
     color: #ff523b;
 }
 
+
 /* connected companies */
 .row1 {
     display: flex;
@@ -156,17 +157,36 @@ a {
 .box1 img {
     cursor: pointer;
 }
-/* footer css */
+
+
+/****************** footer css *******************/
 .footer {
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
     padding: 2rem 4rem;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .col-4{
     text-align: center;
 }
+.footer h1 {
+    margin-bottom: 10px;
+    font-size: 15pt;
+}
+.footer img {
+    width: 10vw;
+    padding-bottom: 15px;
+}
+.col-4 a {
+    color: white;
+}
+.col-4 p {
+    margin: 10px;
+}
+
+
 
 /****************** contact page css *******************/
 .contactrow {
@@ -216,14 +236,6 @@ a {
 .text {
     font-family:'Times New Roman', serif;
 }
-/* .cartImage {
-    display: flex;
-    justify-content: space-between;
-}
-.card {
-    flex-basis: 24%;
-    cursor: pointer;
-} */
 .symbol {
     color: #ff523b;
     padding-left: 10px;
@@ -332,8 +344,15 @@ th:last-child {
     color: #ff523b;
 }
 
-
-
+/********************* copyright ******************/
+.copyright {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
 
 
 
@@ -347,6 +366,14 @@ th:last-child {
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: 10pt;
+    }
+    .footer h1 {
+        padding: 5px;
+    }
+    .footer img {
+        width: 20vw;
+        padding-top: 15px;
     }
     .image1 {
         width: 100%;
@@ -367,6 +394,9 @@ th:last-child {
     .contactrow {
         width: 100%;
         padding: 2rem;
+    }
+    .companies {
+        display: none;
     }
 }
 
